@@ -1,0 +1,23 @@
+{
+  "name": "sunbeam",
+  "version": "1.0.0",
+  "description": "A distributed customizable ID generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saiv46/sunbeam.git"
+  },
+  "keywords": [],
+  "author": "Saiv46",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Saiv46/sunbeam/issues"
+  },
+  "homepage": "https://github.com/Saiv46/sunbeam#readme",
+  "dependencies": {
+    "protodef-neo": "^0.1.0"
+  }
+}

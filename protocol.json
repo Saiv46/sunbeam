@@ -1,0 +1,27 @@
+{
+	"types": {
+		"container": "native",
+		"bitfield": "native",
+		"u32": "native"
+	},
+	"sunbeam": [
+		"beam",
+		[
+			{
+				"name": "time",
+				"type": "u32"
+			},
+			{
+				"name": "data",
+				"type": [
+					"bitfield",
+					[
+						{ "name": "machine", "size": 12 },
+						{ "name": "sequence", "size": 8 },
+						{ "name": "flag", "size": 1 }
+					]
+				]
+			}
+		]
+	]
+}
